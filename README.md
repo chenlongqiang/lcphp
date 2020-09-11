@@ -1,2 +1,2 @@
 # lcphp
-This is a template project, use lcphpframe
+This is template project, Use by lcphpframe
