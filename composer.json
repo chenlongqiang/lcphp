@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "chenlongqiang/lcphpframe": "^1.0"
+        "chenlongqiang/lcphpframe": "^1"
     },
     "autoload": {
         "psr-4": {
