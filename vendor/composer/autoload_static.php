@@ -15,6 +15,7 @@ class ComposerStaticInit0ee363d8e7d472ae664c91dec76a1dae
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '60799491728b879e74601d83e38b2cad' => __DIR__ . '/..' . '/illuminate/collections/helpers.php',
+        'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '75f32969cd10f9d5cea3c4718fe3aed9' => __DIR__ . '/..' . '/chenlongqiang/lcphpframe/src/Foundation/function.php',
         '7cb7bfb5194c1ba7af6ee985d962fc2f' => __DIR__ . '/../..' . '/app/Foundation/function.php',
@@ -194,6 +195,7 @@ class ComposerStaticInit0ee363d8e7d472ae664c91dec76a1dae
     );
 
     public static $classMap = array (
+        'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
