@@ -5,11 +5,13 @@
  * Date: 2020/9/10
  * Time: 11:09
  */
-use NoahBuscher\Macaw\Macaw;
 
-Macaw::get('/', function(){
-    echo 'hello lcphp';exit;
+$router = new \Bramus\Router\Router();
+
+$router->get('/', function () {
+    echo 'hello lcphp';
 });
-Macaw::get('/test', App\Controller\TestController::class . '@index');
 
-Macaw::dispatch();
+$router->get('/test', App\Controller\TestController::class . '@index');
+
+$router->run();
