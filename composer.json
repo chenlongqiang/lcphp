@@ -6,12 +6,6 @@
             "email": "365499684@qq.com"
         }
     ],
-    "repositories":[
-        {
-            "type": "vcs",
-            "url": "git@github.com:chenlongqiang/lcphpframe.git"
-        }
-    ],
     "require": {
         "chenlongqiang/lcphpframe": "^1"
     },
@@ -22,7 +16,5 @@
         "files": [
             "app/Foundation/function.php"
         ]
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
